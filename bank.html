@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0"
+          />
+          <title>Baap er bank</title>
+          <link rel="stylesheet" href="./style.css" />
+     </head>
+     <body>
+          <main>
+               <section class="container">
+                    <h1 class="bank-title">
+                         Let's get Some <span>Moooooooney!</span>
+                    </h1>
+
+                    <div class="bank-container">
+                         <div class="b-balance deposite">
+                              <h3>Deposite</h3>
+                              <h2>$ <span id="deposite">00</span></h2>
+                         </div>
+                         <div class="b-balance withdraw">
+                              <h3>Withdraw</h3>
+                              <h2>$ <span id="withdraw">00</span></h2>
+                         </div>
+                         <div class="b-balance balance">
+                              <h3>Balance</h3>
+                              <h2>$ <span id="balance">00</span></h2>
+                         </div>
+                    </div>
+
+                    <div class="input-balance">
+                         <div class="balance-input deposite-balance">
+                              <h3>Deposite Your Balance</h3>
+                              <input type="number" id="deposite-balance" />
+                              <button id="depositeBtn">Deposite</button>
+                         </div>
+                         <div class="balance-input balance-withdraw">
+                              <h3>Withdraw Your Balance</h3>
+                              <input type="number" id="balance-withdraw" />
+                              <button id="withdrawBtn">Withdraw</button>
+                         </div>
+                    </div>
+               </section>
+          </main>
+
+          <script src="./index.js"></script>
+     </body>
+</html>
